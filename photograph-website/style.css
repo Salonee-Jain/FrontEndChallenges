@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+
+
+
+    
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
+.upper-div{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(232, 231, 233, 0.521);
+
+}
+
+
+.left-div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.search{
+    margin: 20px 0px 0px 100px;
+}
+
+.search input{
+    border: none;
+    outline: none;
+    padding: 5px 20px 5px 10px;
+    border-radius: 3px;
+    background: white;
+    box-shadow: 5px 5px 8px rgb(152, 152, 153); 
+}
+
+
+.text{
+    margin: 20px 0px 0px 100px;
+    margin-top: 100px;
+    width: 250px;
+}
+
+.text p{
+    margin-top: 20px;
+    color:rgb(31, 31, 31);
+}
+.text button{
+    color: white;
+    background-color: rgb(19, 19, 19);
+    padding: 7px 15px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 3px 5px 10px rgba(32, 32, 32, 0.301); 
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.image-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top:70px;
+    left: 150px;
+    background: transparent;
+}
+
+.img-card{
+    background-color: white;
+    width: 140px;
+    height: 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 7px;
+    align-items: center;
+    z-index: 99;
+    
+}
+.img-card p{
+    background-color: white;
+    text-align: left;
+}
+
+.img-card img{
+    border-radius: 3px;
+
+}
+.links{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 999;
+    background: transparent;
+}
+
+ul .link-item{
+    margin-right: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-decoration: none;
+    background: transparent;
+    margin-top: 20px;
+
+    
+}
+a{
+    text-decoration: none;
+    background: transparent;
+    color: white;
+    
+}
+
+.link-btn{
+    margin-right: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    background-color:rgb(30, 148, 226);
+    border-radius: 5px;
+    
+
+}
+
+.link-btn a{
+    color: white;
+    background-color:rgb(30, 148, 226);
+    background-size: 150px;
+ 
+}
+
+.right-div{
+    width: 50%;
+    background-image: url("assets/main.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 55rem;
+    
+
+}
+
+
+.lower-div{
+    margin: 100px 100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgba(232, 231, 233, 0.521);
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 50px 0px;
+  
+}
+.gallery .card1{
+    background-color: white;
+    width: 220px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 5px;
+    align-items: center;
+
+}
+.gallery .card1 img{
+    border-radius: 5px;
+
+}
+.card-text{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.righht-text p{
+    font-size: 10px;
+    text-align: left;
+    padding-right: 80px;
+}
+
+.left-text p{
+    font-size: 10px;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(24, 23, 23);
+    display: flex;
+    justify-content:space-between;
+    color: white;
+    text-align: center;
+    padding: 20px;
+ }
+
+ .like{
+     padding: 10px 13px;
+     background-color: rgb(30, 66, 226);
+     border-radius:50%;
+     border: none;
+     outline: none;
+     margin: 15px;
+     color: white;
+ }
+
+ #big{
+     padding:19px 22px;
+ }

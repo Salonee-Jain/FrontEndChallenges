@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: rgb(1, 1, 36);
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+
+
+.outer-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+
+}
+
+.main-card{
+    position: relative;
+    width: 20vw;
+    min-height: 50vh;
+    background-color: white;
+    border-radius: 8px 8px 7px 7px ;
+    
+
+}
+.svg-image{
+    width: 20.1vw;
+    border-radius: 7px 7px 0px 0px ;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+.order-summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+
+}
+.order-summary h1{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.order-summary p{
+    font-weight: 400;
+    padding: 10px;
+    color: grey;
+    font-size: 0.7rem;
+}
+
+
+.annual-plan{
+    width: 16vw;
+    background: rgba(201, 199, 199, 0.158);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.music-plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.music-text, .change{
+    font-size: 0.6rem;
+  
+}
+.music-text{
+    margin-left: 10px;
+}
+
+.music-text h4{
+    font-weight: 900;
+}
+
+.music-text  p{
+    color: grey;
+}
+button{
+    border: none;
+    outline: none;
+    background: hsl(245, 75%, 52%);
+    width: 16vw;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 0.7rem;
+    color: white;
+    box-shadow: 0px 5px 8px hsl(225, 100%, 94%);
+    
+}
+
+.cancel{
+    text-decoration: none;
+    font-size: 0.6rem;
+    color: grey;
+    margin-top: 10px;
+
+}
+
+
+@media screen and (max-width: 1130px) {
+    .main-card{
+        width: 60vw;
+        height: 50vh
+    }
+
+    .svg-image{
+        width: 60vw;
+
+    }
+    .text-container{
+        padding: 10px;
+    }
+    .order-summary h1{
+        font-size: 1rem;
+
+    }
+    .order-summary p{
+        padding: 8px;
+        font-size: 0.5rem;
+    }
+    .annual-plan{
+        width: 90%;
+        background: rgba(201, 199, 199, 0.158);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    
+    }
+    button{
+        width: 90%;
+        margin-top: -0.1rem;
+        
+
+    }
+    
+}
